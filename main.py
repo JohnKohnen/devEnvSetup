@@ -82,11 +82,11 @@ while continueGame == "yes":
             victoryStatus = 2
 
     if victoryStatus == 1:
-        continueGame = input("Would you like to play this game mode again? \n(Please say yes or no) ").lower()
+        continueGame = input("Would you like to play again? \n(Please say yes or no) ").lower()
 
     else:
         print(f"The secret number was {secretNumb}")
-        continueGame = input("Would you like to play this game mode again? \n(Please say yes or no) ").lower()
+        continueGame = input("Would you like to play again? \n(Please say yes or no) ").lower()
 
 
 
